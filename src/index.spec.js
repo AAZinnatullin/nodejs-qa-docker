@@ -12,7 +12,7 @@ describe('GET /hello/:name', () => {
     server.stop()
   });
 
-  test('Should return welcome string', async () => {
+  test('Should return welcome string 2', async () => {
     const res = await supertest(config.url)
       .get('/hello/nik')
       .set('Accept', 'application/json');
